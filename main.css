@@ -8,7 +8,11 @@ canvas[resize] {
     height: 100%;
 }
 
-input{
-    outline: none;
-    border: none;
+h1{
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    font-weight: normal;
+    color: rgb(110, 109, 109);
+    font-size: medium;
 }
