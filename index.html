@@ -173,13 +173,13 @@
                     var maxPoint = new Point(view.size.width,view.size.height);
                     var randomPoint = Point.random();
                     var point = maxPoint * randomPoint;
+					keyData[event.key].sound.play();
                     circles.push(new Path.Circle({
                         position: new Point(point),
 	                    radius: 500,
 	                    strokeColor: 'black',
                         fillColor: keyData[event.key].color
                     }));      
-                    keyData[event.key].sound.play();
                 }  
         }
    
